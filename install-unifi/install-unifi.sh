@@ -72,7 +72,7 @@ echo " done."
 # Install mongodb, OpenJDK, and unzip (required to unpack Ubiquiti's download):
 # -F skips a package if it's already installed, without throwing an error.
 echo "Installing required packages..."
-env ASSUME_ALWAYS_YES=YES /usr/sbin/pkg install mongodb openjdk unzip
+env ASSUME_ALWAYS_YES=YES /usr/sbin/pkg install mongodb openjdk8 unzip
 echo " done."
 
 # Switch to a temp directory for the Unifi download:
