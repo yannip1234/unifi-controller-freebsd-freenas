@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # install-unifi.sh
-# Installs the Uni-Fi controller software on a FreeBSD machine.
+# Installs the Uni-Fi controller software on a FreeBSD machine or FreeBSD Jail running on FreeNAS.
 
 # The latest version of UniFi:
 UNIFI_SOFTWARE_URL="https://www.ubnt.com/downloads/unifi/5.5.9-b608d637ae/UniFi.unix.zip"
