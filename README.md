@@ -13,6 +13,10 @@ Status
 
 The project now provides two working scripts: an rc script to start and stop the UniFi controller, and an installation script to automatically download and install everything, including the rc script.
 
+Upgrade
+-------
+Working on the upgrade process - NOT Complete yet!
+
 Milestones
 ----------
 
