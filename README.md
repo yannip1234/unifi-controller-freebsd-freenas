@@ -69,9 +69,13 @@ To start and stop the controller, use the `service` command from the command lin
     service unifi.sh stop
   ```
   The the stop command takes a while to execute, and then the shutdown continues for several minutes in the background. The rc script will wait until the command received and the shutdown is finished. The idea is to hold up system shutdown until the UniFi controller has a chance to exit cleanly.
+  
 
 References
 ----------
+Current Version 5.5.14 fixes
+https://community.ubnt.com/t5/UniFi-Beta-Blog/UniFi-5-5-14-Stable-Candidate-has-been-released/ba-p/1936076
+
 Thanks to thecodemonk for your hard work, modified from https://github.com/thecodemonk/unifi-pfsense 
 
 These sources of information immediately come to mind:
