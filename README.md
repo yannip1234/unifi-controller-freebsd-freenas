@@ -6,7 +6,7 @@ A shell script package that provides the UniFi Controller software.
 Purpose
 -------
 
-The objective of this project is to develop and maintain a package that provides [Ubiquiti's](http://www.ubnt.com/) UniFi Controller software for the FreeBSD-based jail. Current stable version 5.5.9
+The objective of this project is to develop and maintain a package that provides [Ubiquiti's](http://www.ubnt.com/) UniFi Controller software for the FreeBSD-based jail. Current stable version 5.5.14
 
 Status
 ------
@@ -15,7 +15,7 @@ The project now provides two working scripts: an rc script to start and stop the
 
 Upgrade
 -------
-Working on the upgrade process - NOT Complete yet!
+Working on the upgrade process - Upgrade to current is working to 5.5.14
 
 Milestones
 ----------
