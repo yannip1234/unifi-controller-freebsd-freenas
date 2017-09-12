@@ -117,8 +117,8 @@ if [ ! -z "${BACKUPFILE}" ] && [ -f ${BACKUPFILE} ]; then
   mv /usr/local/UniFi/data /usr/local/UniFi/data-orig
   /usr/bin/tar -vxzf ${BACKUPFILE} -C /
 fi
-
-echo "Install snappy java"
+#TODO - *Need to verify the current version of snappyjava*
+echo "Install snappy java" 
 env ASSUME_ALWAYS_YES=YES /usr/sbin/pkg install snappyjava
 /bin/mv /usr/local/UniFi/lib/snappy-java-1.1.2.6.jar  snappy-java-1.1.2.6.jar.bak
 /bin/ln -s /usr/local/share/java/classes/snappy-java.jar  /usr/local/UniFi/lib/snappy-java-1.1.2.6.jar
