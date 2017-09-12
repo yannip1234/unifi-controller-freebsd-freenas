@@ -84,7 +84,7 @@ To start and stop the controller, use the `service` command from the command lin
 
 References
 ----------
-Current Version 5.5.14 fixes
+Current Version 5.5.20 fixes
 https://community.ubnt.com/t5/UniFi-Updates-Blog/UniFi-5-5-20-Stable-has-been-released/ba-p/2011817
 Thanks to thecodemonk for your hard work, modified from https://github.com/thecodemonk/unifi-pfsense 
 
