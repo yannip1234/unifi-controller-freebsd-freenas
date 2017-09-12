@@ -15,7 +15,7 @@ The project now provides two working scripts: an rc script to start and stop the
 
 Upgrade
 -------
-Working on the upgrade process - Upgrade to current is working to 5.5.20 (possibly)
+Upgrade to current is working to 5.5.20 (possibly)
 
 Milestones
 ----------
